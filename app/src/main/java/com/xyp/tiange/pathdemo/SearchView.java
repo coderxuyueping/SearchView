@@ -64,7 +64,7 @@ public class SearchView extends View {
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(strokeWidth);
         paint.setAntiAlias(true);
-        //画笔结束点圆角
+        //画笔为圆
         paint.setStrokeCap(Paint.Cap.ROUND);
         paint.setColor(circleColor);
 
