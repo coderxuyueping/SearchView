@@ -37,7 +37,7 @@ public class SearchView extends View {
 
     public SearchView(Context context) {
         this(context, null);
-    }
+    } 
 
     public SearchView(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
@@ -64,7 +64,7 @@ public class SearchView extends View {
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(strokeWidth);
         paint.setAntiAlias(true);
-        //画笔为圆
+        //画笔为圆笔
         paint.setStrokeCap(Paint.Cap.ROUND);
         paint.setColor(circleColor);
 
